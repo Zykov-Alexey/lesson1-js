@@ -46,8 +46,13 @@ const MyPow = Math.pow(3,5);
 var myPow = MyPow;
     console.log(myPow); 
 
+var strObj = {};
+    strObj.str ='Мама мыла раму, рама мыла маму';
+  console.log(strObj);
+    strObj.length = strObj.str.length;
+  console.log(strObj.length);
 
-    
+
 
 
 var myString1 = 'Мама мыла раму, рама мыла маму';
