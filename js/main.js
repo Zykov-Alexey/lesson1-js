@@ -52,7 +52,8 @@ var strObj = {};
     strObj.length = strObj.str.length;
   console.log(strObj.length);
 
-
+  isRamaPos = strObj.str.indexOf('рама');
+  console.log(isRamaPos);
 
 
 var myString1 = 'Мама мыла раму, рама мыла маму';
