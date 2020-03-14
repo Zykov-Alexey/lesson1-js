@@ -55,6 +55,12 @@ var strObj = {};
   isRamaPos = strObj.str.indexOf('рама');
   console.log(isRamaPos);
 
+// var x = 'мыла';
+// var y = 'рама мыла'
+var strReplace = strObj.str.replace('мыла','моет');
+strReplace = strReplace.replace('рама мыла','Рама держит');
+  console.log(strReplace);
+
 
 var myString1 = 'Мама мыла раму, рама мыла маму';
   console.log(myString1.toUpperCase());
