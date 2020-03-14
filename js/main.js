@@ -47,6 +47,11 @@ var myPow = MyPow;
     console.log(myPow); 
 
 
+    
 
-  // console.log(Math.random()*10);
-  // console.log(Math.;
+
+var myString1 = 'Мама мыла раму, рама мыла маму';
+  console.log(myString1.toUpperCase());
+
+var myString2 = 'МАМА МЫЛА РАМУ, РАМА МЫЛА МАМУ';
+  console.log(myString2.toLowerCase());
