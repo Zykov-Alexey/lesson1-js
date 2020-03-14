@@ -42,7 +42,11 @@ const MyRandom = Math.random()*10;
 var myRandom = MyRandom;
   console.log(myRandom); 
 
+const MyPow = Math.pow(3,5);
+var myPow = MyPow;
+    console.log(myPow); 
 
-  
+
+
   // console.log(Math.random()*10);
   // console.log(Math.;
